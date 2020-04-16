@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EpiTrack</string>
+    <string name="prefName">epitrack</string>
+    <string name="UID">UID</string>
+
+</resources>

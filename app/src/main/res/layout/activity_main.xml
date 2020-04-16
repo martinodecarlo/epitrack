@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/receivedMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SONO INFETTO" />
+
+        <TextView
+            android:id="@+id/atRisk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/checkList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SONO A RISCHIO?" />
+
+
+        <Button
+            android:id="@+id/registerBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/unregisterBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unregister" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:background="@android:drawable/ic_media_play" />
+    </LinearLayout>
+
+</RelativeLayout>
