@@ -17,6 +17,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -93,7 +94,7 @@ public class MainActivity extends Activity implements GoogleApiClient.Connection
         receivedMessage = (TextView) findViewById(R.id.receivedMessage);
         final Intent intentForService=new Intent(MainActivity.this, BackgroundTrackingService.class);
 
-        Button register=(Button) findViewById(R.id.registerBackground);
+        ImageButton register=(ImageButton) findViewById(R.id.registerBackground);
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

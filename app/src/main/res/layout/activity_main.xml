@@ -23,7 +23,8 @@
             android:id="@+id/send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SONO INFETTO" />
+            android:layout_gravity="center"
+            android:text="SONO INFETTO!" />
 
         <TextView
             android:id="@+id/atRisk"
@@ -38,26 +39,23 @@
             android:text="SONO A RISCHIO?" />
 
 
-        <Button
+
+        <ImageButton
             android:id="@+id/registerBackground"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Register" />
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_media_play"
+
+            android:scaleType="centerCrop" />
 
         <Button
             android:id="@+id/unregisterBackground"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Unregister" />
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:scaleType="centerCrop"
             android:layout_gravity="center"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:text="Stop" />
 
-            android:background="@android:drawable/ic_media_play" />
     </LinearLayout>
 
 </RelativeLayout>
