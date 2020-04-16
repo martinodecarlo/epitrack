@@ -24,7 +24,7 @@
             android:value="@string/nearby_api_key"/>
 
         <service
-            android:name=".NearbyTrackingService"/>
+            android:name=".BackgroundTrackingService"/>
 
         <activity android:name=".MainActivity">
             <intent-filter>
